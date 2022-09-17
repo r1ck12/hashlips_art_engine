@@ -310,4 +310,19 @@ Trait type: Top lid
 }
 ```
 
+# r1ck12 fork:
+##Added possibility to generate art based on pre-existing files for creating a GEN1 > GEN2 collection. 
+
+## How to set up:
+
+# create a gen1 folder containing GEN1 metadata on ```gen1/```
+
+# add your traits_map configuration on ```src/config.js``` based on what you expect each trait value to become on the new collection to be generated.
+
+# add your new collection arts inside ```layers/``` it should match the ```src/config.js``` case sensitive.
+
+# run ```yarn build``` or ```npm build```
+
+# your GEN2 got generated inside ```builds/``` folder. Enjoy!
+
 Hope you create some awesome artworks with this code 👄
