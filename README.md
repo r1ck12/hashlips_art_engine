@@ -318,9 +318,9 @@ Trait type: Top lid
 
 ### create a gen1 folder containing GEN1 metadata on ```gen1/```
 
-### add your traits_map configuration on ```src/config.js``` based on what you expect each trait value to become on the new collection to be generated.
+### edit your ```traits_map``` configuration on ```src/config.js``` based on what you expect each trait value to become on the new collection to be generated.
 
-### add your new collection arts inside ```layers/``` it should match the ```src/config.js``` case sensitive.
+### add your new collection arts inside ```layers/``` it should match the ```src/config.js``` ```traits_map``` object case sensitive. (```layers/x``` folders names are the trait_types names, and images.png should match each element name)
 
 ### run ```yarn build``` or ```npm build```
 
